@@ -1,0 +1,137 @@
+{
+    "home":"Home",
+    "contact":"Contact",
+    "languages":"Languages",
+    "active":"Active",
+    "deactive":"Deactive",
+    "activate":"Activate",
+    "create":"Create",
+    "edit":"Edit",
+    "delete":"Delete",
+    "update":"Update",
+    "row":"Row",
+    "image":"Image",
+    "current image":"Current image",
+    "status":"Status",
+    "name":"Name",
+    "firstname":"Firstname",
+    "lastname":"Lastname",
+    "fullname":"Fullname",
+    "action":"Action",
+    "title":"Title",
+    "description":"Description",
+    "short description":"Short description",
+    "publish time":"Publish time",
+    "editor":"Editor",
+    "role name":"Role name",
+    "about":"About",
+    "email":"E-mail",
+    "password":"Password",
+    "confirm password":"Confirm Password",
+    "role":"Role",
+    "icon":"Icon",
+    "phone":"Phone",
+    "map":"Map",
+    "time":"Time",
+    "address":"Address",
+    "subject":"Subject",
+    "message":"Message",
+    "code":"Code",
+    "profession":"Profession",
+    "show":"Show",
+    "subtitle":"Subtitle",
+    "person":"Person",
+    "created_at":"Date",
+    "content":"Content",
+    "popular news":"Popular News",
+    "recent news":"Recent News",
+    "editor choice":"Editor Choice",
+    "search":"Search",
+    "sign out":"Sign out",
+    "sign in":"Sign in",
+    "sign up":"Sign up",
+    "Already have an account?":"Already have an account? ",
+    "Not a member?":"Not a member?",
+    "Forgot my password?":"Forgot my password?",
+    "Remember Me":"Remember Me",
+    "Posted by":"Posted by",
+    "Posted On":"Posted On",
+    "Views":"Views",
+    "post a comment":"Post a comment",
+    "Leave a reply":"Leave a reply",
+    "Not found":"Not found",
+    "search results":"Search results",
+    "email us":"Email us",
+    "call us":"Call us",
+    "location":"Location",
+    "Drop Us A Message For Any Query":"Drop Us A Message For Any Query",
+    "Send Message":" Send Message",
+    "return to home page":"Return to home page",
+
+
+
+
+    "banners":"Banners",
+    "roles":"Roles",
+    "users":"Users",
+    "comments":"Comments",
+    
+
+    "important links":"Important links",
+    "categories":"Categories",
+    "contacts":"Contacts",
+    "social media":"Social Media",
+    "main image":"Main Image",
+    "settings":"Settings",
+    "tags":"Tags",
+    "posts":"Posts",
+    "contact us":"Contact us",
+
+    "role list":" Role List",
+    "role create":" Role Create",
+    "role update":" Role Update",
+
+    "user list":" User List",
+    "user create":" User Create",
+    "user update":" User Update",
+
+    "language list":" Language List",
+    "language create":" Language Create",
+    "language update":" Language Update",
+
+    "important_link list":" Link List",
+    "important_link list create":" Link Create",
+    "important_link list update":" Link Update",
+
+    "category list":" Category List",
+    "category create":" Category Create",
+    "category update":" Category Update",
+
+    "social_media list":" Social media List",
+    "social_media create":" Social media Create",
+    "social_media update":" Social media Update",
+
+    
+    "contact update":" Contact Update",
+
+    "manin_image update":" Main image Update",
+
+    "setting update":" Setting Update",
+
+    "tag list":" Tag List",
+    "tag create":" Tag Create",
+    "tag update":" Tag Update",
+
+    "post list":" Post List",
+    "post create":" Post Create",
+    "post update":" Post Update",
+
+    "contact_us list":" Contact us List",
+    "contact_us show":" Contact us Show",
+    
+    "comment list":" Comment List",
+    "comment show":"Comment Show"
+
+
+
+}

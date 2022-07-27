@@ -1,0 +1,138 @@
+{
+    "home":"Ana səhifə",
+    "contact":"Əlaqə",
+    "languages":"Dillər",
+    "active":"Aktiv",
+    "deactive":"Deaktiv",
+    "activate":"Aktiv et",
+    "create":"Əlavə et",
+    "edit":"Redakte et",
+    "delete":"Sil",
+    "update":"Yenilə",
+    "row":"Sıra",
+    "image":"Foto",
+    "current image":"Cari foto",
+    "status":"Status",
+    "name":"Ad",
+    "firstname":"Ad",
+    "lastname":"Soyad",
+    "fullname":"Ad,Soyad",
+    "action":"Əməliyyat",
+    "title":"Başlıq",
+    "description":"Təsvir",
+    "short description":"Qısa təsvir",
+    "publish time":"Dərc vaxtı",
+    "editor":"Redaktor",
+    "role name":"Rol adı",
+    "about":"Haqqında",
+    "email":"E-poçt",
+    "password":"Şifrə",
+    "confirm password":"Şifrənin təsdiqi",
+    "role":"Vəzifə",
+    "icon":"Simvol",
+    "phone":"Mobil",
+    "map":"Xəritə",
+    "time":"Vaxt",
+    "address":"Ünvan",
+    "footer":"Altbilgi",
+    "subject":"Mövzu",
+    "message":"Mesaj",
+    "code":"Kod",
+    "profession":"Peşə",
+    "show":"Göstər",
+    "subtitle":"Altyazı",
+    "person":"Nəfər",
+    "created_at":"Tarix",
+    "content":"Məzmun",
+    "popular news":"Populiyar Xəbərlər",
+    "recent news":"Ən son xəbərlər",
+    "editor choice":"Redaktor seçimi",
+    "search":"Axtar",
+    "sign out":"Çıxış",
+    "sign in":"Daxil ol",
+    "sign up":"Qeydiyyatdan keç",
+    "Already have an account?":"Artıq bir hesabınız var mı?",
+    "Not a member?":"Üzv deyilsiniz?",
+    "Forgot my password?":"Şifrəmi unutdum?",
+    "Remember Me":"Xatırla Məni",
+    "Posted by":"Göndərən",
+    "Posted On":"Göndərilib",
+    "Views":"İzləmə",
+    "post a comment":"Şərh yaz",
+    "Leave a reply":"Bir şərh yazın",
+    "Not found":"Belə bir nəticə tapılmadı",
+    "search results":"Axtarış nəticələri",
+    "email us":"Bizə e-poçt göndərin",
+    "call us":"Bizə zəng edin",
+    "location":"Məkan",
+    "Drop Us A Message For Any Query":"İstənilən Sorğu üçün Bizə Mesaj Göndərin",
+    "Send Message":"Mesaj göndərin",
+    "return to home page":"Ana səhifəyə qayıt",
+
+
+
+
+
+
+
+
+
+
+    "banners":"Bannerlər",
+    "users":"İstifadəçilər",
+    "roles":"Vəzifələr",
+    "comments":"Rəylər",
+    "important links":"Vacib linklər",
+    "categories":"Kateqoriyalar",
+    "social media":"Sosial Media",
+    "contacts":"Əlaqələr",
+    "main image":"Əsas şəkil",
+    "settings":"Tənzimləmələr",
+    "tags":"Etiketlər",
+    "posts":"Postlar",
+    "contact us":"Bizimlə əlaqə",
+
+    "role list":"Vəzifə Siyahısı",
+    "role create":"Vəzifə Yaratmaq",
+    "role update":" Vəzifə Yeniləmək",
+
+    "user list":"İstifadəçi Siyahısı",
+    "user create":"İstifadəçi Yaratmaq",
+    "user update":" İstifadəçi Yeniləmək",
+
+    "language list":" Dil Siyahısı",
+    "language create":" Dil Yaratmaq",
+    "language update":" Dil Yeniləmək",
+
+    "important_link list":" Link Siyahısı",
+    "important_link list create":" Link Yaratmaq",
+    "important_link list update":" Link Yeniləmək",
+
+    "category list":" Kategoriya Siyahısı",
+    "category create":" Kategoriya Yaratmaq",
+    "category update":" Kategoriya Yeniləmək",
+
+    "social_media list":" Sosial media Siyahısı",
+    "social_media create":" Sosial media  Yaratmaq",
+    "social_media update":" Sosial media  Yeniləmək",
+
+    "contact update":" Əlaqə Yeniləmək",
+
+    "manin_image update":"Əsas şəkil Yeniləmək",
+
+    "setting update":"Tənzimləmə Yeniləmək",
+
+    "tag list":" Teq Siyahısı",
+    "tag create":"Teq  Yaratmaq",
+    "tag update":"Teq Yeniləmək",
+
+    "post list":" Post Siyahısı",
+    "post create":" Post Yaratmaq",
+    "post update":" Post Yeniləmək",
+
+    "contact_us list":"Bizimlə əlaqə Siyahısı",
+    "contact_us show":"Bizimlə əlaqə  Göstər",
+    
+    "comment list":" Rəy Siyahısı",
+    "comment show":"Rəy Göstər"
+}
