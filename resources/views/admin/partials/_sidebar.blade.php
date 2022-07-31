@@ -152,6 +152,24 @@
                         <span>Opening Hour</span>
                     </a>
                 </li>
+                <li class="sidebar-list">
+                    <a class="sidebar-link sidebar-title link-nav" href="{{ route('admin.tag.index') }}">
+                        <i data-feather="user-plus"> </i>
+                        <span>Tag</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a class="sidebar-link sidebar-title link-nav" href="{{ route('admin.blog.index') }}">
+                        <i data-feather="user-plus"> </i>
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a class="sidebar-link sidebar-title link-nav" href="{{ route('admin.meal.index') }}">
+                        <i data-feather="user-plus"> </i>
+                        <span>Meal</span>
+                    </a>
+                </li>
           </div>
           <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
       </nav>

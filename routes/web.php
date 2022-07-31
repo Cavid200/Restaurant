@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\User\MenuController;
 use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\TimeController;
 use App\Http\Controllers\Admin\IndexController;
@@ -26,9 +27,12 @@ use App\Http\Controllers\Admin\OurRestorantController;
 use App\Http\Controllers\Admin\DiscoverImageController;
 use App\Http\Controllers\Admin\SocialNetworkController;
 use App\Http\Controllers\Admin\GalleryCategoryController;
+use App\Http\Controllers\Admin\MealController;
 use App\Http\Controllers\Admin\OurRestoranImageController;
 use App\Http\Controllers\User\IndexController as UserIndexController;
 use App\Http\Controllers\Admin\ReservationController as AdminReservationController;
+use App\Http\Controllers\Admin\TagController;
+use App\Models\BlogTag;
 
 /*
 |--------------------------------------------------------------------------
@@ -288,12 +292,7 @@ Route::group(['middleware'=>'auth','prefix'=>'admin','as'=>'admin.'],function(){
         Route::get('/delete/{social_network}',[SocialNetworkController::class,'destroy'])->name('destroy');
     });
 
-
-
-
-
     
-
     Route::group(['prefix'=>'opening_hour','as'=>'opening_hour.'],function(){
         Route::get('/',[OpeningHourController::class,'index'])->name('index');
         Route::get('/create',[OpeningHourController::class,'create'])->name('create');
@@ -303,7 +302,40 @@ Route::group(['middleware'=>'auth','prefix'=>'admin','as'=>'admin.'],function(){
         Route::get('/delete/{opening_hour}',[OpeningHourController::class,'destroy'])->name('destroy');
     });
 
-    
+
+    Route::group(['prefix'=>'tag','as'=>'tag.'],function(){
+        Route::get('/',[TagController::class,'index'])->name('index');
+        Route::get('/create',[TagController::class,'create'])->name('create');
+        Route::post('/store',[TagController::class,'store'])->name('store');
+        Route::get('/edit/{tag}',[TagController::class,'edit'])->name('edit');
+        Route::post('/update/{tag}',[TagController::class,'update'])->name('update');
+        Route::get('/delete/{tag}',[TagController::class,'destroy'])->name('destroy');
+    });
+
+
+
+    Route::group(['prefix'=>'blog','as'=>'blog.'],function(){
+        Route::get('/',[BlogController::class,'index'])->name('index');
+        Route::get('/create',[BlogController::class,'create'])->name('create');
+        Route::post('/store',[BlogController::class,'store'])->name('store');
+        Route::get('/edit/{blog}',[BlogController::class,'edit'])->name('edit');
+        Route::post('/update/{blog}',[BlogController::class,'update'])->name('update');
+        Route::get('/delete/{blog}',[BlogController::class,'destroy'])->name('destroy');
+        Route::get('/active/{blog}',[BlogController::class,'active'])->name('active');
+
+    });
+
+    Route::group(['prefix'=>'meal','as'=>'meal.'],function(){
+        Route::get('/',[MealController::class,'index'])->name('index');
+        Route::get('/create',[MealController::class,'create'])->name('create');
+        Route::post('/store',[MealController::class,'store'])->name('store');
+        Route::get('/edit/{meal}',[MealController::class,'edit'])->name('edit');
+        Route::post('/update/{meal}',[MealController::class,'update'])->name('update');
+        Route::get('/delete/{meal}',[MealController::class,'destroy'])->name('destroy');
+        Route::get('/active/{meal}',[MealController::class,'active'])->name('active');
+
+    });
+
 
    
 

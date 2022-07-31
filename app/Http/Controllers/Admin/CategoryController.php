@@ -24,7 +24,7 @@ class CategoryController extends Controller
         $category=new Category();
         $category->title = $request->title;
         $category->subtitle = $request->subtitle;
-        $category->isActive = $request->isActive =1 ? : 0 ;
+        $category->isActive = $request->isActive = 1 ? : 0 ;
         if ($request->file('image')) {
             $file = time() . '.' . $request->image->extension();
             $request->image->storeAs('public/uploads/category/', $file);
