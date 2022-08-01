@@ -1,9 +1,12 @@
 <?php
+use App\Models\BlogTag;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\TagController;
 use App\Http\Controllers\User\MenuController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\HomeController;
+use App\Http\Controllers\Admin\MealController;
 use App\Http\Controllers\Admin\TimeController;
 use App\Http\Controllers\Admin\IndexController;
 use App\Http\Controllers\Admin\FilialController;
@@ -21,18 +24,16 @@ use App\Http\Controllers\Admin\HomeImageController;
 use App\Http\Controllers\User\ReservationController;
 use App\Http\Controllers\Admin\ContactInfoController;
 use App\Http\Controllers\Admin\OpeningHourController;
+use App\Http\Controllers\Admin\SocialMediaController;
 use App\Http\Controllers\Admin\ContactImageController;
 use App\Http\Controllers\Admin\GalleryImageController;
 use App\Http\Controllers\Admin\OurRestorantController;
 use App\Http\Controllers\Admin\DiscoverImageController;
 use App\Http\Controllers\Admin\SocialNetworkController;
 use App\Http\Controllers\Admin\GalleryCategoryController;
-use App\Http\Controllers\Admin\MealController;
 use App\Http\Controllers\Admin\OurRestoranImageController;
 use App\Http\Controllers\User\IndexController as UserIndexController;
 use App\Http\Controllers\Admin\ReservationController as AdminReservationController;
-use App\Http\Controllers\Admin\TagController;
-use App\Models\BlogTag;
 
 /*
 |--------------------------------------------------------------------------
@@ -337,11 +338,16 @@ Route::group(['middleware'=>'auth','prefix'=>'admin','as'=>'admin.'],function(){
     });
 
 
-   
-
- 
 
 
+    Route::group(['prefix'=>'social_media','as'=>'social_media.'],function(){
+        Route::get('/',[SocialMediaController::class,'index'])->name('index');
+        Route::get('/create',[SocialMediaController::class,'create'])->name('create');
+        Route::post('/store',[SocialMediaController::class,'store'])->name('store');
+        Route::get('/edit/{social_media}',[SocialMediaController::class,'edit'])->name('edit');
+        Route::post('/update/{social_media}',[SocialMediaController::class,'update'])->name('update');
+        Route::get('/delete/{social_media}',[SocialMediaController::class,'destroy'])->name('destroy');
+    });
 
 
 

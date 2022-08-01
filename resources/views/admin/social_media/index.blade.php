@@ -13,7 +13,7 @@
                     <h3>{{ __('language list') }}</h3>
                 </div>
                 <div class="col-6">
-                    <a style="float: right" href="{{ route('admin.personal.create') }}" class="btn btn-primary"><i class="fas fa-plus-circle"></i></a>
+                    <a style="float: right" href="{{ route('admin.social_media.create') }}" class="btn btn-primary"><i class="fas fa-plus-circle"></i></a>
                 </div>
             </div>
         </div>
@@ -29,24 +29,22 @@
                                 <thead>
                                     <tr>
                                         <th>{{ __('row') }}</th>
-                                        <th>{{ __('image') }}</th>
-                                        <th>{{ __('fullname') }}</th>
+                                        <th>{{ __('name') }}</th>
+                                        <th>{{ __('url') }}</th>
+                                        <th>{{ __('icon') }}</th>
                                         <th>{{ __('action') }}</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($personals as $personal )
+                                    @foreach ($social_medias as $social_media )
                                     <tr>
                                         <td>{{ $loop->iteration }}</td>
-                                        <td><img src="{{ asset($personal->image) }}" alt="" style="width: 100px"></td>
-                                        <td>{{ $personal->fullname }}</td>
+                                        <td>{{ $social_media->name }}</td>
+                                        <td>{{ $social_media->url }}</td>
+                                        <td>{{ $social_media->icon }}</td>
                                         <td>
-                                            <a href="{{ route('admin.personal.edit',$personal) }}" class="btn btn-success"><i class="fas fa-edit"></i></a>
-                                            @if ($personal->isActive==1)
-                                                <a href="{{ route('admin.personal.destroy',$personal) }}" class="btn btn-danger delete"><i class="fas fa-trash-alt"></i></a>
-                                            @else
-                                            <a href="{{ route('admin.personal.active',$personal) }}"class="btn btn-warning"><i class="fas fa-check-square"></i></a>
-                                            @endif
+                                            <a href="{{ route('admin.social_media.edit',$social_media) }}" class="btn btn-success"><i class="fas fa-edit"></i></a>
+                                            <a href="{{ route('admin.social_media.destroy',$social_media) }}" class="btn btn-danger delete"><i class="fas fa-trash-alt"></i></a>
                                         </td>
                                     </tr>
                                     @endforeach

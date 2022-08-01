@@ -170,6 +170,12 @@
                         <span>Meal</span>
                     </a>
                 </li>
+                <li class="sidebar-list">
+                    <a class="sidebar-link sidebar-title link-nav" href="{{ route('admin.social_media.index') }}">
+                        <i data-feather="user-plus"> </i>
+                        <span>Social Media</span>
+                    </a>
+                </li>
           </div>
           <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
       </nav>
